@@ -125,30 +125,9 @@ Bu kural bir testle korunuyor: `test_no_tool_returns_personal_data`.
 
 ## Eğitmen materyalleri
 
-| Belge | Ne için |
-|---|---|
-| [`INSTRUCTOR-RUNBOOK.md`](INSTRUCTOR-RUNBOOK.md) | Günü yönetme: ön koşullar, her blokta nelere dikkat edileceği, zor sorulara cevaplar |
-| [`SUNUM-TAM-METIN.md`](SUNUM-TAM-METIN.md) | 60 slaytın konuşulacak tam metni. Hazırlıkta bir kez okunur, odada kapatılır |
-| [`SUNUM-KILAVUZU.md`](SUNUM-KILAVUZU.md) | Özet tempo kılavuzu. Anlatırken açık tutulacak belge budur |
-| [`labs/EGITMEN-CEVAP-ANAHTARI.md`](labs/EGITMEN-CEVAP-ANAHTARI.md) | Tüm tartışma sorularının işlenmiş cevapları ve odanın tipik kaçış yolları |
 
----
 
-## Sunmadan önce
 
-- [ ] `cost/calculator.py` içindeki `RATES` tablosunu
-      [GitHub Docs](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing)
-      ile doğrulayın. Fiyatlar değişiyor.
-- [ ] `cost/scenarios.py` içindeki `SEATS` değerini gerçek ekip büyüklüğüne çekin.
-      Açılış slaydının etkisi tamamen o rakamda.
-- [ ] Katılımcılardan `python3 --version` ve `which python3` çıktılarını **yazılı**
-      isteyin. "Python kurulu" cevabı yeterli değil.
-- [ ] Kurumsal planda **"MCP servers in Copilot"** politikasının açık olduğunu
-      isim vererek teyit ettirin. Varsayılan kapalı ve kapalıyken hiçbir hata
-      vermiyor.
-- [ ] Kararlı VS Code sürümü kullanın, Insiders değil.
-
----
 
 ## Notlar
 
@@ -160,5 +139,4 @@ Tahminle bütçe kurmak, ölçmemenin kibarcasıdır.
 
 ---
 
-<sub>Lab yönergeleri Türkçe, sunum İngilizce. İngilizce lab sürümleri
-`labs/en/` altında.</sub>
+Zekeriya Beşiroğlu 
